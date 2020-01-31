@@ -16,7 +16,7 @@ if (program.analyse) {
   const suggest = program.suggest;
   const arg = program.args[0];
   if (suggest === "-d") {
-    printSuggests(arg, suggest);
+    printSuggests(arg, true);
   } else {
     printSuggests(suggest);
   }
