@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "commander": "^4.1.0",
-    "mahjong-helper": "^0.0.4"
+    "mahjong-helper": "^0.1.1"
   },
   "devDependencies": {
     "@types/jest": "^24.0.15",

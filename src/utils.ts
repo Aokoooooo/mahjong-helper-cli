@@ -5,9 +5,9 @@ export const printSuggests = (
   showDetails: boolean = false
 ): void => {
   const suggests = suggest(Hand.fromCode(code));
-  if (typeof suggests === "string") {
-    console.log(suggests);
-  } else if (!suggests || !suggests.length) {
+  if (!suggests) {
+    console.log("荣和");
+  } else if (!suggests.length) {
     console.log("没牌了,随便打掉换牌吧");
   } else {
     suggests.forEach(i => {
